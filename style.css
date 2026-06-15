@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3a5f, #07681b);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.calculator-container {
+    width: 100%;
+    max-width: 450px;
+}
+
+.calculator {
+    background: #1e293b;
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.calculator:hover {
+    transform: translateY(-5px);
+}
+
+.display {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    min-height: 120px;
+}
+
+.previous-operand {
+    color: #94a3b8;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    min-height: 30px;
+}
+
+.current-operand {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: #334155;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn.number {
+    background: #475569;
+}
+
+.btn.number:hover {
+    background: #5b6e8c;
+}
+
+.btn.operator {
+    background: #f59e0b;
+    color: #1e293b;
+}
+
+.btn.operator:hover {
+    background: #fbbf24;
+}
+
+.btn.clear {
+    background: #ef4444;
+    color: white;
+}
+
+.btn.clear:hover {
+    background: #dc2626;
+}
+
+.btn.delete {
+    background: #64748b;
+    color: white;
+}
+
+.btn.delete:hover {
+    background: #7f8fa6;
+}
+
+.btn.equals {
+    background: #10b981;
+    color: white;
+}
+
+.btn.equals:hover {
+    background: #059669;
+}
+
+.credit {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 500px) {
+    .calculator {
+        padding: 20px;
+    }
+    
+    .btn {
+        padding: 15px;
+        font-size: 1.1rem;
+    }
+    
+    .current-operand {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .buttons {
+        gap: 8px;
+    }
+    
+    .btn {
+        padding: 12px;
+        font-size: 1rem;
+    }
+}
