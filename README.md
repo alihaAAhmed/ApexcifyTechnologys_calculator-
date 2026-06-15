@@ -59,7 +59,7 @@ Open index.html in your browser or use Live Server in VS Code
 Your Name
 
 GitHub: https://github.com/alihaAAhmed
-LinkedIn: https://linkedin.com/in/YOUR_PROFILE
+LinkedIn: https://www.linkedin.com/in/aliha-ahmed-40a04a33b/
 
 ## License
 
