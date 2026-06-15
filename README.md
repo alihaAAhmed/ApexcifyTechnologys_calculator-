@@ -4,7 +4,7 @@ A simple, fully functional calculator built with HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-Visit Website: https://YOUR-USERNAME.github.io/calculator/
+Visit Website: https://alihaaahmed.github.io/ApexcifyTechnologys_calculator-/
 
 ## Features
 
@@ -50,7 +50,7 @@ calculator/
 ## How to Run Locally
 
 Clone the repository:
-git clone https://github.com/YOUR-USERNAME/calculator.git
+git clone https://github.com/alihaAAhmed/calculator.git
 
 Open index.html in your browser or use Live Server in VS Code
 
@@ -58,7 +58,7 @@ Open index.html in your browser or use Live Server in VS Code
 
 Your Name
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/alihaAAhmed
 LinkedIn: https://linkedin.com/in/YOUR_PROFILE
 
 ## License
